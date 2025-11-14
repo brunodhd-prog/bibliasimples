@@ -1,0 +1,5 @@
+{
+  "name": "Bíblia Simples",
+  "description": "Uma aplicação web limpa e simples para ler a Bíblia. Os usuários podem selecionar qualquer livro e capítulo para ver seu texto, que é buscado usando a API Gemini.",
+  "requestFramePermissions": []
+}

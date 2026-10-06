@@ -1,0 +1,29 @@
+{
+  "name": "bibliasimples-mods",
+  "description": "Mods de uso diário: Visão Limpa, Painel de Controle, Time de Agentes e gerenciamento de contexto T4",
+  "owner": {
+    "name": "brunodhd-prog"
+  },
+  "plugins": [
+    {
+      "name": "clean-view",
+      "source": "./claude-mods/clean-view",
+      "description": "Visão Limpa: só os tópicos principais das tool calls"
+    },
+    {
+      "name": "control-panel",
+      "source": "./claude-mods/control-panel",
+      "description": "Painel de Controle: atalhos de modelo por tarefa"
+    },
+    {
+      "name": "agent-team",
+      "source": "./claude-mods/agent-team",
+      "description": "Time de Agentes: painel, modelo por papel e sincronização"
+    },
+    {
+      "name": "t4-context",
+      "source": "./claude-mods/t4-context",
+      "description": "T4: elisão em B1 (65%) e sumarização em B2 (85%)"
+    }
+  ]
+}

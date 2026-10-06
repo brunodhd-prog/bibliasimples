@@ -1,0 +1,7 @@
+{
+  "name": "control-panel",
+  "version": "0.1.0",
+  "description": "Painel de Controle: atalhos acima do prompt para escolher o modelo de IA conforme a tarefa.",
+  "author": { "name": "brunodhd-prog" },
+  "types": "./types/index.d.ts"
+}

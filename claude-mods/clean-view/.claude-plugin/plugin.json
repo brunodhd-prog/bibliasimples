@@ -1,0 +1,7 @@
+{
+  "name": "clean-view",
+  "version": "0.1.0",
+  "description": "Visão Limpa: esconde logs detalhados de tool calls e mostra só os tópicos principais.",
+  "author": { "name": "brunodhd-prog" },
+  "types": "./types/index.d.ts"
+}

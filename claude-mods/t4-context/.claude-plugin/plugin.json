@@ -1,0 +1,35 @@
+{
+  "name": "t4-context",
+  "version": "0.1.0",
+  "description": "Gerenciamento de contexto T4: elisão de tool calls em B1 e sumarização em B2 (sem recall).",
+  "author": {
+    "name": "brunodhd-prog"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "b1": {
+      "type": "number",
+      "title": "B1 (%)",
+      "description": "Limite de elisão, em % da janela de contexto",
+      "default": 65
+    },
+    "b2": {
+      "type": "number",
+      "title": "B2 (%)",
+      "description": "Limite de sumarização, em % da janela de contexto",
+      "default": 85
+    },
+    "keepRecent": {
+      "type": "number",
+      "title": "Mensagens recentes intactas",
+      "description": "Quantas mensagens finais nunca sofrem elisão",
+      "default": 8
+    },
+    "minChars": {
+      "type": "number",
+      "title": "Tamanho mínimo para elisão",
+      "description": "Resultados de ferramenta acima deste tamanho (caracteres) são elididos",
+      "default": 600
+    }
+  }
+}

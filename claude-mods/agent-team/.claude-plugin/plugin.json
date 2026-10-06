@@ -1,0 +1,7 @@
+{
+  "name": "agent-team",
+  "version": "0.1.0",
+  "description": "Time de Agentes: painel dos subagentes, modelo individual por papel, disparo e sincronização em lote.",
+  "author": { "name": "brunodhd-prog" },
+  "types": "./types/index.d.ts"
+}
